@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--font awesome icons-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--style sheet for svg-->
     <style>
         path {
@@ -32,45 +35,22 @@
 <body>
     <div class="container">
         <div class="row">
+            <i onclick="back()" class="fa fa-arrow-left" style="font-size:24px"></i>
             <div class="col-md-12" id="svg"></div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
             <script type="text/javascript" src="storke.js"></script>
             <script type="text/javascript" src="JK.js"></script>
+            <script type="text/javascript" src="pikupColor.js"></script>
+            <script type="text/javascript" src="mapPlot.js"></script>
             <script>
-                const value = '50',
-                    name = "State Name",
-                    color = "rgb(128, 159, 255)",
-                    stroke = StateId;
-
-                plot(value, name, color, stroke);
-
-                function plot(value, name, color, stroke) {
-
-                    var svg = '<svg   viewBox="0 0 432 488">';
-                    stroke.map((item) => {
-                        svg += '<path id="' + item[0] + '" d="' + item[1] + '" fill="' + color + '"><title>' + item[0] + " " + value + '</title></path>';
-                    });
-                    svg += "</svg>";
-                    console.log(svg);
-                    $('#svg').html(svg);
-                }
-
-
-
-
-                var image = $('#render-img');
-                let SR = $('svg path');
-
-                SR.click(function() {
-                    var stroke =
-                        plot(value, name, color, stroke);
-
-
-                });
             </script>
         </div>
     </div>
-
+    <script>
+        function back() {
+            plot(value, name, color, stroke);
+        }
+    </script>
 </body>
 
 </html>
