@@ -1,6 +1,7 @@
-var AP = "Andhra Pradesh";
+var AP = "Andhra_Pradesh";
 var AR = "Arunachal Pradesh";
 var BR = "Bihar";
+var CG = "Chhattisgarh";
 var GA = "Goa";
 var GJ = "Gujurat";
 var HR = "Haryana";
