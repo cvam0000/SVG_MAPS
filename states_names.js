@@ -1,6 +1,7 @@
-var AP = "Andhra Pradesh";
+var AP = "Andhra_Pradesh";
 var AR = "Arunachal Pradesh";
 var BR = "Bihar";
+var CG = "Chhattisgarh";
 var GA = "Goa";
 var GJ = "Gujurat";
 var HR = "Haryana";
@@ -14,7 +15,7 @@ var SK = "Sikkim";
 var TN = "Tamil Nadu";
 var TG = "Telangana";
 var TR = "Tripura";
-var UP = "Uttar Pradesh";
+var UP = "UttarPradesh";
 var UK = "Uttarakhand"
 var WB = "West Bengal";
 var AN = "Andaman Nicobar";
