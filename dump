@@ -82,3 +82,25 @@
 
 
 var Jammu_and_Kashmir_dist = [x,Kupwara],[x, Bandipora],[x, Baramulla],[x, Ganderbal],[x, Anantnag],[x, Kishtwar],[ x,Srinagar],[x, Budgam],[ x,Pulwama],[x, Punch],[x, Shopiyan],[x, Kulgam],[ x,Rajouri],[x, Ramban],[x, Reasi],[x, Doda],[x, Kathua],[x, Udhampur],[x, Samba],[x, Muzaffarabad],[x, Mirpur],[x, Jammu];
+
+
+	95% 		rgb(230, 242, 255)	hsl(210, 100%, 95%)
+	90% 		rgb(204, 230, 255)	hsl(210, 100%, 90%)
+            	
+	85% 		rgb(179, 217, 255)	hsl(210, 100%, 85%)
+	80% 		rgb(153, 204, 255)	hsl(210, 100%, 80%)
+	75% 		rgb(128, 191, 255)	hsl(210, 100%, 75%)
+	70% 		rgb(102, 179, 255)	hsl(210, 100%, 70%)
+	65% 		rgb(77, 166, 255)	hsl(210, 100%, 65%)
+	60% 		rgb(51, 153, 255)	hsl(210, 100%, 60%)
+	55% 		rgb(26, 140, 255)	hsl(210, 100%, 55%)
+	50% 		rgb(0, 128, 255)	hsl(210, 100%, 50%)
+	45% 		rgb(0, 115, 230)	hsl(210, 100%, 45%)
+	40% 		rgb(0, 102, 204)	hsl(210, 100%, 40%)
+	35% 		rgb(0, 89, 179)	hsl(210, 100%, 35%)
+	30% 		rgb(0, 77, 153)	hsl(210, 100%, 30%)
+	25% 		rgb(0, 64, 128)	hsl(210, 100%, 25%)
+	20% 		rgb(0, 51, 102)	hsl(210, 100%, 20%)
+	15% 		rgb(0, 38, 77)	hsl(210, 100%, 15%)
+	10% 		rgb(0, 26, 51)	hsl(210, 100%, 10%)
+	5% 	    

@@ -14,7 +14,7 @@
     <style>
         path {
             pointer-event: all;
-            stroke: #fff;
+            stroke: #0066cc;
             stroke-opacity: 5;
             stroke-width: 1.8;
         }
@@ -24,10 +24,21 @@
             stroke: whitesmoke;
         }
         
-        #render-img {
-            position: fixed;
-            top: 50px;
-            right: 100px;
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #dddddd;
         }
     </style>
 </head>
@@ -35,21 +46,22 @@
 <body>
     <div class="container">
         <div class="row">
-            <i onclick="back()" class="fa fa-arrow-left" style="font-size:24px"></i>
-            <div class="col-md-12" id="svg"></div>
+            <div id="back_to_map"></div>
+            <div id="name"></div>
+            <div class="col-md-8" id="svg"></div>
+            <div class="col-md-4" id="table"></div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
             <script type="text/javascript" src="stroke.js"></script>
             <script type="text/javascript" src="JK.js"></script>
             <script type="text/javascript" src="pikupColor.js"></script>
             <script type="text/javascript" src="mapPlot.js"></script>
+            <script type="text/javascript" src="values.js"></script>
+
             <script>
             </script>
         </div>
     </div>
     <script>
-        function back() {
-            plot(value, name, color, stroke);
-        }
     </script>
 </body>
 
