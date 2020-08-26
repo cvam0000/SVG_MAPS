@@ -40,11 +40,92 @@
         tr:nth-child(even) {
             background-color: #dddddd;
         }
+        tr:hover{
+          animation-name: background-color;
+          animation-duration: 500ms;
+          animation-fill-mode: forwards;
+        }
+        @keyframes background-color {
+    100% {
+      background-color:  #2196F3;
+    }
+        }
     </style>
 </head>
 
 <body>
-    <div class="container">
+    <style>
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+      
+      .switch input { 
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      input:checked + .slider {
+        background-color: #2196F3;
+      }
+      
+      input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3;
+      }
+      
+      input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+      }
+      
+      /* Rounded sliders */
+      .slider.round {
+        border-radius: 34px;
+      }
+      
+      .slider.round:before {
+        border-radius: 50%;
+      }
+      </style>
+      </head>
+      
+  <body>
+      
+      <h2>Toggle Switch</h2>
+      
+      <label class="switch">
+        <input type="checkbox" checked>
+        <span class="slider round"></span>
+      </label>
+<div class="container">
         <div class="row">
             <div id="back_to_map"></div>
             <div id="name"></div>
@@ -69,6 +150,15 @@
             <script type="text/javascript" src="js/Odisha.js"></script>
             <script type="text/javascript" src="js/Tamil_Nadu.js"></script>
             <script type="text/javascript" src="js/Telangana.js"></script>
+            <script type="text/javascript" src="js/Uttar_Pradesh.js"></script>
+            <script type="text/javascript" src="js/West_Bengal.js"></script>
+            <script type="text/javascript" src="js/Maharashtra.js"></script>
+            <script type="text/javascript" src="js/Rajasthan.js"></script>
+            <script type="text/javascript" src="js/Madhya_Pradesh.js"></script>
+            <script type="text/javascript" src="js/Assam.js"></script>
+            <script type="text/javascript" src="js/Manipur.js"></script>
+            <script type="text/javascript" src="js/Meghalya.js"></script>
+            <script type="text/javascript" src="js/Sikkim.js"></script>
             <script type="text/javascript" src="pikupColor.js"></script>
             <script type="text/javascript" src="mapPlot.js"></script>
             <script type="text/javascript" src="values.js"></script>
