@@ -1,5 +1,5 @@
 # SVG_MAPS | Map Design
-### https://internetshutdowns.in/ is using it
+### https://internetshutdowns.in/ is using it :)
 #### Need contributors for code cleanup / expand.
 
 ![India](https://raw.githubusercontent.com/cvam0000/SVG_MAPS/master/india.png)
