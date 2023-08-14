@@ -2,8 +2,8 @@
 ### https://internetshutdowns.in/ is using it
 #### Need contributors for code cleanup / expand.
 
-![India](https://example.com/map.png)
-![State](https://example.com/map.png)
+![India](https://raw.githubusercontent.com/cvam0000/SVG_MAPS/master/india.png)
+![State](https://raw.githubusercontent.com/cvam0000/SVG_MAPS/master/jk.png)
 
 Welcome to the **Map Design** repository! This project focuses on creating dynamic SVG-based maps for geographical visualization. The maps can be customized to display various types of data, and the project provides interactive features for exploring different regions.
 
